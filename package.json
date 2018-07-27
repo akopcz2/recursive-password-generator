@@ -1,5 +1,5 @@
 {
-  "name": "recursive-password",
+  "name": "wordlist-password-generator",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/akopcz2/recursive-password-generator.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/akopcz2/recursive-password-generator/issues"
   },
