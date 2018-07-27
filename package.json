@@ -18,5 +18,6 @@
   "homepage": "https://github.com/akopcz2/recursive-password-generator#readme",
   "dependencies": {
     "node-fetch": "^2.2.0"
-  }
+  },
+  "keywords":["Generator", "Password Generator", "Async/Await", "Password Generator with Word list"]
 }
