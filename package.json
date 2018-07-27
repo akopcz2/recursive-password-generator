@@ -1,6 +1,6 @@
 {
   "name": "wordlist-password-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -19,5 +19,10 @@
   "dependencies": {
     "node-fetch": "^2.2.0"
   },
-  "keywords":["Generator", "Password Generator", "Async/Await", "Password Generator with Word list"]
+  "keywords": [
+    "Generator",
+    "Password Generator",
+    "Async/Await",
+    "Password Generator with Word list"
+  ]
 }
