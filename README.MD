@@ -13,3 +13,6 @@ userPassword.init().then((value) => {
 });
 /* This would return something like abbot.sadly-37 */
 ```
+
+#### To Do
+1. Allow for upload of custom wordlist
