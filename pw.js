@@ -6,11 +6,7 @@ let generateWord = (difficulty) => {
   for (count = difficulty; count > 0; count--) {
     result += threeLetters[Math.floor(Math.random() * threeLetters.length)].word;
     console.log(count, result);
-    if(count <= 1){
-      result = result + '-';
-    } else {
-      result = result + '.';
-    }
+    result = (count <= 1) ? result = result + '-' : result = result + '.';
   };
     return result;
 };
