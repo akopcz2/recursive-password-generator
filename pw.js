@@ -14,7 +14,7 @@ let generateNumbers = (difficulty) => {
   var count;
   var result = 0;
   for (count = difficulty; count > 0; count--){
-      result = (count >= difficulty) ? result = Math.floor(Math.random() * 6) + 1 : result += `${Math.floor(Math.random() * 6) + 1 }`;
+      result = (count >= difficulty) ? result = Math.floor(Math.random() * 9) + 0 : result += `${Math.floor(Math.random() * 9) + 0 }`;
   } 
   return result; 
 };
