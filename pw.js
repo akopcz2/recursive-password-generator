@@ -2,11 +2,14 @@
 const fetch = require('node-fetch');
 let generateWord = require('./util/utils.js').generateWord;
 let generateNumbers = require('./util/utils.js').generateNumbers;
-/** Generates a Password by using a wordgame wordlist - Examples of a password look like abbot.sadly-37
+
+/** 
+ * Generates a Password by using a wordgame wordlist - Examples of a password look like abbot.sadly-37
  * Words in password are sepearted by a  '.' and appended with a '-' and a random Int between 01 - 99
- * @param {integer} numberOfLetters number of letters you want the word to have
- * @param {integer} difficulty complexity level 1 being the lowest
+ * @param {int} numberOfLetters number of letters you want the word to have
+ * @param {int} difficulty complexity level 1 being the lowest
  */
+
 class GeneratePassword {
     constructor(numberOfLetters, difficulty) {
       this.numberOfLetters = numberOfLetters;
