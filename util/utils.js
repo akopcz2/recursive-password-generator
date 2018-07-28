@@ -1,5 +1,4 @@
 /**
- * 
  * @param {int} letterCount - Number of letters you want the word to consist of
  * @param {array} wordList - Wordlist Array -  json response from fetch
  */
@@ -16,7 +15,6 @@ exports.generateWord = (letterCount, wordList) => {
 };
 
 /**
- * 
  * @param {int} difficulty - Length of numerical values in password
  */
 exports.generateNumbers = (difficulty) => {
