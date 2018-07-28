@@ -32,7 +32,7 @@ class GeneratePassword {
             console.log('Error', e);
         }
     }
-    async randomize(difficulty) {
+    async randomize() {
         try {
             let words = await generateWord(this.difficulty, this.wordList);
             let numbers = await generateNumbers(this.difficulty);
