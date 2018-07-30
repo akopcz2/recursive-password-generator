@@ -1,4 +1,5 @@
 exports.generateWord = (difficulty, wordList) => {
+    console.log(wordList , ' Inside util');
     let self = this;
     var count;
     var result = '';

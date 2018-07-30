@@ -1,5 +1,4 @@
-
-const fetch = require('node-fetch');
+const fs = require('fs');
 let generateWord = require('./util/utils.js').generateWord;
 let generateNumbers = require('./util/utils.js').generateNumbers;
 /** Generates a Password by using a wordgame wordlist - Examples of a password look like abbot.sadly-37
@@ -21,9 +20,7 @@ class GeneratePassword {
     }
     async fetchList(){
         try {   
-            let response = await fetch(`https://www.wordgamedictionary.com/word-lists/${this.numberOfLetters}-letter-words/${this.numberOfLetters}-letter-words.json`);
-            let json = await response.json();
-            this.wordList = json;
+            this.wordList =JSON.parse(fs.readFileSync(`./wordlists/${self.numberOfLetters}-letter-words.json`, 'utf8'));
         }
         catch(e){
             console.log('Error', e);
