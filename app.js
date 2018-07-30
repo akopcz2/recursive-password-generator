@@ -1,4 +1,4 @@
-let randomPass = require('wordlist-password-generator');
+let randomPass = require('./pw.js');
 /** 
  * (4) Number of letters you want to word to have
  * (2) Levels of depth - 2 Yield 2 words and 2 numbers

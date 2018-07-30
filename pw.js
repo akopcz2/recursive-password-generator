@@ -23,7 +23,7 @@ class GeneratePassword {
     }
     async fetchList(){
         try {   
-            this.wordList =JSON.parse(fs.readFileSync(`./wordlists/${self.numberOfLetters}-letter-words.json`, 'utf8'));
+            this.wordList = JSON.parse(fs.readFileSync(`./wordlists/${this.numberOfLetters}-letter-words.json`, 'utf8'));
         }
         catch(e){
             console.log('Error', e);
