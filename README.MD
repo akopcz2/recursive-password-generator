@@ -4,8 +4,7 @@
 
 Uses words found within the worldlists on the site [https://www.wordgamedictionary.com/word-lists/]
 
-**Single Dependecy**
-Node-Fetch
+**No External Dependecies**
 
 **Uses Async**
 Compatible with Node versions >=7.6 (containing default ASYNC)
